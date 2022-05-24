@@ -669,22 +669,22 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - No need to implement
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] Will not implement. Implementing with array is trivial
+    - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [x] Will not implement. Implementing with array is trivial
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using fixed-sized array:
+    - [x] Implement using fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
@@ -709,7 +709,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
             - [Distributed Hash Tables (video)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
 
-    - [ ] Implement with array using linear probing
+    - [x] Implement with array using linear probing
         - hash(k, m) - m is size of hash table
         - add(key, value) - if key already exists, update value
         - exists(key)
@@ -791,9 +791,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [Delete a node from Binary Search Tree (video)](https://www.youtube.com/watch?v=gcULXE7ViZw&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=36)
         - [ ] [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [ ] Implement:
-        - [ ] insert    // insert value into tree
-        - [ ] get_node_count // get count of values stored
-        - [ ] print_values // prints the values in the tree, from min to max
+        - [x] insert    // insert value into tree
+        - [x] get_node_count // get count of values stored
+        - [x] print_values // prints the values in the tree, from min to max
         - [ ] delete_tree
         - [ ] is_in_tree // returns true if given value exists in the tree
         - [ ] get_height // returns the height in nodes (single node's height is 1)
@@ -836,12 +836,12 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - [ ] Notes:
     - Implement sorts & know best case/worst case, average complexity of each:
         - no bubble sort - it's terrible - O(n^2), except when n <= 16
-    - [ ] Stability in sorting algorithms ("Is Quicksort stable?")
+    - [x] Stability in sorting algorithms ("Is Quicksort stable?")
         - [Sorting Algorithm Stability](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Which algorithms can be used on linked lists? Which on arrays? Which on both?
+    - [x] Which algorithms can be used on linked lists? Which on arrays? Which on both?
         - I wouldn't recommend sorting a linked list, but merge sort is doable.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
@@ -874,7 +874,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 - [ ] [Quicksort (video)](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)
 - [ ] [Selection Sort (video)](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)
 
-- [ ] Merge sort code:
+- [x] Merge sort code:
     - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
     - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
     - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
@@ -884,7 +884,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Implementation (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
 - [ ] Implement:
-    - [ ] Mergesort: O(n log n) average and worst case
+    - [x] Mergesort: O(n log n) average and worst case
     - [ ] Quicksort O(n log n) average case
     - Selection sort and insertion sort are both O(n^2) average and worst case
     - For heapsort, see Heap data structure above
@@ -968,15 +968,15 @@ Graphs can be used to represent many problems in computer science, so this secti
 ## Even More Knowledge
 
 - ### Recursion
-    - [ ] Stanford lectures on recursion & backtracking:
+    - [x] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
         - [ ] [Lecture 10 | Programming Abstractions (video)](https://www.youtube.com/watch?v=NdF1QDTRkck&index=10&list=PLFE6E58F856038C69)
         - [ ] [Lecture 11 | Programming Abstractions (video)](https://www.youtube.com/watch?v=p-gpaIGRCQI&list=PLFE6E58F856038C69&index=11)
     - When it is appropriate to use it?
     - How is tail recursion better than not?
-        - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
-        - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
+        - [x] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
+        - [x] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
 	
 	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
